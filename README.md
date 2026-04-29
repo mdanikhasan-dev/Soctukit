@@ -57,21 +57,19 @@
 
 <br />
 
-## Overview
+<h2 id="overview">Overview</h2>
 
-<a id="overview"></a>
+<p>SoctuKit started as a way out of the tab juggling that comes with running multiple social platforms. Browser dashboards, scattered drafts, separate analytics: every tool wanted its own window. SoctuKit pulls connection, visibility, drafting, and publishing into a single Windows desktop app.</p>
 
-SoctuKit started as a way out of the tab juggling that comes with running multiple social platforms. Browser dashboards, scattered drafts, separate analytics: every tool wanted its own window. SoctuKit pulls connection, visibility, drafting, and publishing into a single Windows desktop app.
+<p>This repository is the public release page. Source code is not included.</p>
 
-This repository is the public release page. Source code is not included.
-
-> **Note for readers on the website:** every image in this README is loaded from an absolute URL, so the page renders the same on GitHub and on [mdanikhasan.com](https://mdanikhasan.com).
+<blockquote>
+  <strong>Note for readers on the website:</strong> every image in this README is loaded from an absolute URL, so the page renders the same on GitHub and on <a href="https://mdanikhasan.com">mdanikhasan.com</a>.
+</blockquote>
 
 <br />
 
-## Highlights
-
-<a id="highlights"></a>
+<h2 id="highlights">Highlights</h2>
 
 <table align="center">
   <tr>
@@ -106,9 +104,7 @@ This repository is the public release page. Source code is not included.
 
 <br />
 
-## Built With
-
-<a id="built-with"></a>
+<h2 id="built-with">Built With</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white&labelColor=0F172A" alt="C#" />
@@ -133,25 +129,44 @@ This repository is the public release page. Source code is not included.
   <img src="https://img.shields.io/badge/Packages-NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white&labelColor=0F172A" alt="NuGet" />
 </p>
 
-<div align="center">
-
-| Layer | Project | Purpose |
-|:---|:---|:---|
-| Presentation | `SoctuKit.App` | WinUI 3 shell, views, view models, navigation |
-| Domain | `SoctuKit.Core` | Pure business logic, interfaces, no Windows deps |
-| Integrations | `SoctuKit.Infrastructure` | OAuth, platform clients, credential storage |
-| Tests | `SoctuKit.Core.Tests`, `SoctuKit.Infrastructure.Tests` | xUnit + FluentAssertions |
-| Installer | `installer/SoctuKit.iss` | Inno Setup script that produces `SoctuKitSetup.exe` |
-
-</div>
+<table align="center">
+  <thead>
+    <tr><th align="left">Layer</th><th align="left">Project</th><th align="left">Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Presentation</td>
+      <td><code>SoctuKit.App</code></td>
+      <td>WinUI 3 shell, views, view models, navigation</td>
+    </tr>
+    <tr>
+      <td>Domain</td>
+      <td><code>SoctuKit.Core</code></td>
+      <td>Pure business logic, interfaces, no Windows deps</td>
+    </tr>
+    <tr>
+      <td>Integrations</td>
+      <td><code>SoctuKit.Infrastructure</code></td>
+      <td>OAuth, platform clients, credential storage</td>
+    </tr>
+    <tr>
+      <td>Tests</td>
+      <td><code>SoctuKit.Core.Tests</code>, <code>SoctuKit.Infrastructure.Tests</code></td>
+      <td>xUnit + FluentAssertions</td>
+    </tr>
+    <tr>
+      <td>Installer</td>
+      <td><code>installer/SoctuKit.iss</code></td>
+      <td>Inno Setup script that produces <code>SoctuKitSetup.exe</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
-## Preview
+<h2 id="preview">Preview</h2>
 
-<a id="preview"></a>
-
-### Accounts
+<h3>Accounts</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mdanikhasan-dev/Soctukit/main/assets/previews/accounts-preview.png" alt="SoctuKit accounts preview" width="96%" />
@@ -159,7 +174,7 @@ This repository is the public release page. Source code is not included.
 
 <p align="center"><sub>Connect, reconnect, or disconnect saved access from one panel.</sub></p>
 
-### Settings
+<h3>Settings</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mdanikhasan-dev/Soctukit/main/assets/previews/settings-preview.png" alt="SoctuKit settings preview" width="96%" />
@@ -169,7 +184,7 @@ This repository is the public release page. Source code is not included.
 
 <br />
 
-## Workflow
+<h2 id="workflow">Workflow</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/1-Connect%20accounts-2563EB?style=for-the-badge&labelColor=0F172A" alt="Step 1" />
@@ -183,27 +198,54 @@ This repository is the public release page. Source code is not included.
 
 <br />
 
-## Platform Support
+<h2 id="platform-support">Platform Support</h2>
 
-<a id="platform-support"></a>
-
-<div align="center">
-
-| Platform | Sign in | Publish | Notes |
-|:---|:---:|:---:|:---|
-| <img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=flat-square&logo=x&logoColor=white" alt="X" /> | <img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /> | <img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /> | Requires your own developer app |
-| <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /> | <img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /> | <img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /> | Client ID, secret, and callback required |
-| <img src="https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Reddit" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | Not finished in this build |
-| <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | Not finished in this build |
-| <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | <img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /> | Not finished in this build |
-
-</div>
+<table align="center">
+  <thead>
+    <tr>
+      <th align="left">Platform</th>
+      <th align="center">Sign in</th>
+      <th align="center">Publish</th>
+      <th align="left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /></td>
+      <td>Requires your own developer app</td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Working_-10B981?style=flat-square" alt="Working" /></td>
+      <td>Client ID, secret, and callback required</td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Reddit" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td>Not finished in this build</td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td>Not finished in this build</td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/_Coming%20soon_-F59E0B?style=flat-square" alt="Coming soon" /></td>
+      <td>Not finished in this build</td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
-## Download
-
-<a id="download"></a>
+<h2 id="download">Download</h2>
 
 <p align="center">
   <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe">
@@ -211,54 +253,58 @@ This repository is the public release page. Source code is not included.
   </a>
 </p>
 
-**Release artifacts**
+<h3>Release artifacts</h3>
 
-| File | Purpose |
-|:---|:---|
-| `SoctuKitSetup.exe` | Windows installer |
-| `SoctuKitSetup.exe.sha256.txt` | Integrity checksum |
+<table align="center">
+  <thead>
+    <tr><th align="left">File</th><th align="left">Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>SoctuKitSetup.exe</code></td><td>Windows installer</td></tr>
+    <tr><td><code>SoctuKitSetup.exe.sha256.txt</code></td><td>Integrity checksum</td></tr>
+  </tbody>
+</table>
 
-**SHA-256**
+<h3>SHA&#8209;256</h3>
 
-```text
-B76ED217C5B298DD0FAFCC316FB781DDF9D4C26E71D1AA4BBE5FE60D95365B6D
-```
+<pre><code>B76ED217C5B298DD0FAFCC316FB781DDF9D4C26E71D1AA4BBE5FE60D95365B6D</code></pre>
 
-**Direct links**
+<h3>Direct links</h3>
 
-* Release page: <https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0>
-* Installer: <https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe>
-* Checksum: <https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt>
-* License: <https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE>
+<ul>
+  <li>Release page: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0">https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0</a></li>
+  <li>Installer: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe</a></li>
+  <li>Checksum: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt</a></li>
+  <li>License: <a href="https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE">https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE</a></li>
+</ul>
 
-**Verify the installer in PowerShell**
+<h3>Verify the installer in PowerShell</h3>
 
-```powershell
-Get-FileHash .\SoctuKitSetup.exe -Algorithm SHA256
-```
+<pre><code>Get-FileHash .\SoctuKitSetup.exe -Algorithm SHA256</code></pre>
 
-The output should match the SHA-256 value above exactly.
-
-<br />
-
-## Setup Notes
-
-<a id="setup-notes"></a>
-
-| Setting | What it does |
-|:---|:---|
-| `OPENAI_API_KEY` | Enables stronger AI assisted content features |
-| X developer app | Required before X sign in works |
-| LinkedIn developer app | Required (client ID, secret, callback) |
-| Reddit, Facebook, Instagram | Listed as coming soon in this public build |
+<p>The output should match the SHA&#8209;256 value above exactly.</p>
 
 <br />
 
-## Safety and Privacy
+<h2 id="setup-notes">Setup Notes</h2>
 
-<a id="safety-and-privacy"></a>
+<table align="center">
+  <thead>
+    <tr><th align="left">Setting</th><th align="left">What it does</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>OPENAI_API_KEY</code></td><td>Enables stronger AI assisted content features</td></tr>
+    <tr><td>X developer app</td><td>Required before X sign in works</td></tr>
+    <tr><td>LinkedIn developer app</td><td>Required (client ID, secret, callback)</td></tr>
+    <tr><td>Reddit, Facebook, Instagram</td><td>Listed as coming soon in this public build</td></tr>
+  </tbody>
+</table>
 
-### What is already in place
+<br />
+
+<h2 id="safety-and-privacy">Safety and Privacy</h2>
+
+<h3>What is already in place</h3>
 
 <p>
   <img src="https://img.shields.io/badge/Source-Not%20shipped-10B981?style=flat-square&labelColor=0F172A" alt="source not shipped" />
@@ -267,12 +313,14 @@ The output should match the SHA-256 value above exactly.
   <img src="https://img.shields.io/badge/Distribution-Real%20installer-10B981?style=flat-square&labelColor=0F172A" alt="installer" />
 </p>
 
-* Source code is not bundled in this public repository
-* OAuth tokens are stored in Windows Credential Manager
-* Saved platform app secrets remain on the local machine
-* The app is distributed as a proper Windows installer, not a loose zip
+<ul>
+  <li>Source code is not bundled in this public repository</li>
+  <li>OAuth tokens are stored in Windows Credential Manager</li>
+  <li>Saved platform app secrets remain on the local machine</li>
+  <li>The app is distributed as a proper Windows installer, not a loose zip</li>
+</ul>
 
-### What you should still know
+<h3>What you should still know</h3>
 
 <p>
   <img src="https://img.shields.io/badge/SmartScreen-May%20warn-F59E0B?style=flat-square&labelColor=0F172A" alt="SmartScreen" />
@@ -280,40 +328,40 @@ The output should match the SHA-256 value above exactly.
   <img src="https://img.shields.io/badge/Client%20app-Not%20a%20vault-F59E0B?style=flat-square&labelColor=0F172A" alt="client app not a vault" />
 </p>
 
-* Windows may show a trust warning until SoctuKit ships with a publicly trusted code signing certificate
-* Only download from the official GitHub repository or the official website
-* No desktop app can be made impossible to reverse engineer, so confidential secrets should never be shipped inside a client app
+<ul>
+  <li>Windows may show a trust warning until SoctuKit ships with a publicly trusted code signing certificate</li>
+  <li>Only download from the official GitHub repository or the official website</li>
+  <li>No desktop app can be made impossible to reverse engineer, so confidential secrets should never be shipped inside a client app</li>
+</ul>
 
 <br />
 
-## License
+<h2 id="license">License</h2>
 
-<a id="license"></a>
-
-SoctuKit is **free to use** but **not open source**.
+<p>SoctuKit is <strong>free to use</strong> but <strong>not open source</strong>.</p>
 
 <p>
   <img src="https://img.shields.io/badge/Free%20to%20use-Yes-10B981?style=for-the-badge&labelColor=0F172A" alt="free to use" />
   <img src="https://img.shields.io/badge/Open%20source-No-E11D48?style=for-the-badge&labelColor=0F172A" alt="open source no" />
 </p>
 
-You may **not**:
+<p>You may <strong>not</strong>:</p>
 
-* modify it
-* redistribute it
-* rebrand it
-* resell it
-* reverse engineer it
-* decompile it
-* claim it as your own work
+<ul>
+  <li>modify it</li>
+  <li>redistribute it</li>
+  <li>rebrand it</li>
+  <li>resell it</li>
+  <li>reverse engineer it</li>
+  <li>decompile it</li>
+  <li>claim it as your own work</li>
+</ul>
 
-Full license: <https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE>
+<p>Full license: <a href="https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE">https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE</a></p>
 
 <br />
 
-## Support
-
-<a id="support"></a>
+<h2 id="support">Support</h2>
 
 <p align="center">
   <a href="https://mdanikhasan.com">
@@ -327,22 +375,22 @@ Full license: <https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE>
   </a>
 </p>
 
-<div align="center">
-
-| | |
-|:---|:---|
-| **Developer** | Md Anik Hasan |
-| **Company** | Sawlper |
-| **Website** | <https://mdanikhasan.com> |
-| **Email** | anikhasan2@iCloud.com |
-
-</div>
+<table align="center">
+  <tbody>
+    <tr><td><strong>Developer</strong></td><td>Md Anik Hasan</td></tr>
+    <tr><td><strong>Company</strong></td><td>Sawlper</td></tr>
+    <tr><td><strong>Website</strong></td><td><a href="https://mdanikhasan.com">https://mdanikhasan.com</a></td></tr>
+    <tr><td><strong>Email</strong></td><td><a href="mailto:anikhasan2@iCloud.com">anikhasan2@iCloud.com</a></td></tr>
+  </tbody>
+</table>
 
 <br />
 
-## Short Description
+<h2 id="short-description">Short Description</h2>
 
-> SoctuKit is a Windows desktop social publishing workspace for account connection, live visibility, drafting, and publishing, all in one place.
+<blockquote>
+  SoctuKit is a Windows desktop social publishing workspace for account connection, live visibility, drafting, and publishing, all in one place.
+</blockquote>
 
 <br />
 
