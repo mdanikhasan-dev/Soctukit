@@ -45,6 +45,7 @@
 <p align="center">
   <a href="#overview"><img src="https://img.shields.io/badge/_Overview_-0F172A?style=flat-square" alt="Overview" /></a>
   <a href="#highlights"><img src="https://img.shields.io/badge/_Highlights_-0F172A?style=flat-square" alt="Highlights" /></a>
+  <a href="#built-with"><img src="https://img.shields.io/badge/_Built%20With_-0F172A?style=flat-square" alt="Built With" /></a>
   <a href="#preview"><img src="https://img.shields.io/badge/_Preview_-0F172A?style=flat-square" alt="Preview" /></a>
   <a href="#platform-support"><img src="https://img.shields.io/badge/_Platforms_-0F172A?style=flat-square" alt="Platforms" /></a>
   <a href="#download"><img src="https://img.shields.io/badge/_Download_-0F172A?style=flat-square" alt="Download" /></a>
@@ -102,6 +103,47 @@ This repository is the public release page. Source code is not included.
     </td>
   </tr>
 </table>
+
+<br />
+
+## Built With
+
+<a id="built-with"></a>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white&labelColor=0F172A" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0F172A" alt=".NET 8" />
+  <img src="https://img.shields.io/badge/WinUI%203-0078D4?style=for-the-badge&logo=windows11&logoColor=white&labelColor=0F172A" alt="WinUI 3" />
+  <img src="https://img.shields.io/badge/Windows%20App%20SDK-1.8-0F6CBD?style=for-the-badge&logo=windows&logoColor=white&labelColor=0F172A" alt="Windows App SDK" />
+  <img src="https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=xaml&logoColor=white&labelColor=0F172A" alt="XAML" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MVVM-CommunityToolkit-7C3AED?style=for-the-badge&labelColor=0F172A" alt="CommunityToolkit.Mvvm" />
+  <img src="https://img.shields.io/badge/Hosting-Microsoft.Extensions-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0F172A" alt="Microsoft.Extensions.Hosting" />
+  <img src="https://img.shields.io/badge/Tests-xUnit-EC4899?style=for-the-badge&logo=xunit&logoColor=white&labelColor=0F172A" alt="xUnit" />
+  <img src="https://img.shields.io/badge/Assertions-FluentAssertions-10B981?style=for-the-badge&labelColor=0F172A" alt="FluentAssertions" />
+  <img src="https://img.shields.io/badge/Installer-Inno%20Setup-264F6F?style=for-the-badge&labelColor=0F172A" alt="Inno Setup" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IDE-Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white&labelColor=0F172A" alt="Visual Studio 2022" />
+  <img src="https://img.shields.io/badge/Build-MSBuild-0078D4?style=for-the-badge&labelColor=0F172A" alt="MSBuild" />
+  <img src="https://img.shields.io/badge/Scripts-PowerShell-2671BE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=0F172A" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Packages-NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white&labelColor=0F172A" alt="NuGet" />
+</p>
+
+<div align="center">
+
+| Layer | Project | Purpose |
+|:---|:---|:---|
+| Presentation | `SoctuKit.App` | WinUI 3 shell, views, view models, navigation |
+| Domain | `SoctuKit.Core` | Pure business logic, interfaces, no Windows deps |
+| Integrations | `SoctuKit.Infrastructure` | OAuth, platform clients, credential storage |
+| Tests | `SoctuKit.Core.Tests`, `SoctuKit.Infrastructure.Tests` | xUnit + FluentAssertions |
+| Installer | `installer/SoctuKit.iss` | Inno Setup script that produces `SoctuKitSetup.exe` |
+
+</div>
 
 <br />
 
