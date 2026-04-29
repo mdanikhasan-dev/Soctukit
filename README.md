@@ -112,12 +112,13 @@ Main release files:
 
 SHA-256:
 
-`93907AD73B5D928D1773355F53AEFD893D64D38B92E9B3CA99B3B22DA7FD4ACE`
+`B76ED217C5B298DD0FAFCC316FB781DDF9D4C26E71D1AA4BBE5FE60D95365B6D`
 
 Direct links:
 
-- Installer: `https://github.com/mdanikhasan-dev/Soctukit/raw/main/SoctuKitSetup.exe`
-- Checksum: `https://github.com/mdanikhasan-dev/Soctukit/raw/main/SoctuKitSetup.exe.sha256.txt`
+- Release page: `https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0`
+- Installer: `https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe`
+- Checksum: `https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt`
 - License: `https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE`
 
 ## Setup Notes
