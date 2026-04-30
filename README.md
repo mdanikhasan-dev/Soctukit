@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-2563EB?style=for-the-badge&labelColor=0F172A" alt="Version" />
+  <img src="https://img.shields.io/badge/Version-1.0.1-2563EB?style=for-the-badge&labelColor=0F172A" alt="Version" />
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0EA5E9?style=for-the-badge&logo=windows&logoColor=white&labelColor=0F172A" alt="Platform" />
   <img src="https://img.shields.io/badge/UI-WinUI%203-7C3AED?style=for-the-badge&logo=windows11&logoColor=white&labelColor=0F172A" alt="UI" />
   <img src="https://img.shields.io/badge/Installer-Setup%20EXE-10B981?style=for-the-badge&logo=windows&logoColor=white&labelColor=0F172A" alt="Installer" />
@@ -24,14 +24,14 @@
   <img src="https://img.shields.io/badge/Publisher-Sawlper-F59E0B?style=flat-square&labelColor=0F172A" alt="Publisher" />
   <img src="https://img.shields.io/badge/Author-Md%20Anik%20Hasan-EC4899?style=flat-square&labelColor=0F172A" alt="Author" />
   <img src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=0F172A" alt="Status" />
-  <img src="https://img.shields.io/badge/Release-v1.0.0-0EA5E9?style=flat-square&labelColor=0F172A" alt="Release" />
+  <img src="https://img.shields.io/badge/Release-v1.0.1-0EA5E9?style=flat-square&labelColor=0F172A" alt="Release" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe">
+  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe">
     <img src="https://img.shields.io/badge/Download-SoctuKitSetup.exe-2563EB?style=for-the-badge&logo=windows&logoColor=white&labelColor=0F172A" alt="Download installer" />
   </a>
-  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt">
+  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe.sha256.txt">
     <img src="https://img.shields.io/badge/Verify-SHA--256-0F766E?style=for-the-badge&logo=keybase&logoColor=white&labelColor=0F172A" alt="Verify SHA-256" />
   </a>
   <a href="https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE">
@@ -248,7 +248,7 @@
 <h2 id="download">Download</h2>
 
 <p align="center">
-  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe">
+  <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe">
     <img src="https://img.shields.io/badge/Download-SoctuKitSetup.exe-2563EB?style=for-the-badge&logo=windows&logoColor=white&labelColor=0F172A" alt="Download installer" />
   </a>
 </p>
@@ -267,14 +267,14 @@
 
 <h3>SHA&#8209;256</h3>
 
-<pre><code>B76ED217C5B298DD0FAFCC316FB781DDF9D4C26E71D1AA4BBE5FE60D95365B6D</code></pre>
+<pre><code>5A29AA3435F58217CB96D18F50C103CA59820EDB84D35FF05E6FE8408AA0D09F</code></pre>
 
 <h3>Direct links</h3>
 
 <ul>
-  <li>Release page: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0">https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.0</a></li>
-  <li>Installer: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe</a></li>
-  <li>Checksum: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.0/SoctuKitSetup.exe.sha256.txt</a></li>
+  <li>Release page: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.1">https://github.com/mdanikhasan-dev/Soctukit/releases/tag/v1.0.1</a></li>
+  <li>Installer: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe</a></li>
+  <li>Checksum: <a href="https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe.sha256.txt">https://github.com/mdanikhasan-dev/Soctukit/releases/download/v1.0.1/SoctuKitSetup.exe.sha256.txt</a></li>
   <li>License: <a href="https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE">https://github.com/mdanikhasan-dev/Soctukit/blob/main/LICENSE</a></li>
 </ul>
 
@@ -402,4 +402,4 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20,30&height=120&section=footer&animation=fadeIn" alt="footer" width="100%" />
 </p>
 
-<p align="center"><sub>&copy; Md Anik Hasan &middot; Sawlper &middot; SoctuKit v1.0.0</sub></p>
+<p align="center"><sub>&copy; Md Anik Hasan &middot; Sawlper &middot; SoctuKit v1.0.1</sub></p>
